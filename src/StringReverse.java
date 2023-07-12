@@ -23,8 +23,8 @@ public class StringReverse {
     public static void main(String[] args) {
         char[] str = new char[]{'h','e','l','l','o'};
         System.out.println(str);
-        StringReverse r=new StringReverse();
-        r.reverseString(str);
+        StringReverse stringReverse =new StringReverse();
+        stringReverse.reverseString(str);
 
 
 
